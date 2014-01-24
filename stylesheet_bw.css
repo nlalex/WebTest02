@@ -1,0 +1,53 @@
+* {
+	background-color: #736F5B;
+	font-family: 'Lustria', serif;
+}
+
+#header {
+	height: 5em;
+}
+
+#header span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em; 
+    background-color: transparent;
+}
+
+#first_name {
+    color: #FCF4C8;
+}
+
+#last_name {
+    color: #292720;
+}
+
+.tile {
+    width: 20%;
+    height: 12.34%;
+    clear: both;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #292720;
+    display: inline-block;
+    margin: .75% .75% .75% 0;
+}
+
+#facebook {
+    background-image: url("http://logos.80x15.com/dologo.php?do=true&ls_font_text=facebook&ls_text_color=FCF4C8&ls_background=292720&out_border=292720&font_type=facebook&font_size=35&shadow=127&gloss=127");
+    float: left;
+}
+
+#footer {
+	height: 50px;
+	/*background-color: #69D2E7;*/
+	clear: both;
+}
+
+.big_pic {
+    background-image: url("http://www.wallpaperpin.com/webdisk/vintage-architecture-ohio-stadium-desktop-free-wallpaper.jpg");
+    background-size: cover;
+    background-position: 0 75%;
+    width: 100%;
+    height: 40%;
+}

@@ -1,0 +1,128 @@
+/*
+dark 302D2C
+white FFFFFF
+orange FF5600
+dark blue 00B2A7
+dark blue2?? 00998F
+light blue 00FFEF
+*/
+
+* {
+	font-family: 'Lustria', serif;
+	/*background-color: #E6D4A7;
+	color: #E6D4A7;*/
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+    text-align: justify;
+    background-color: transparent;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#navbar a {
+    display: inline-block;
+    background-color: transparent;
+    /*color: #FF5600;*/
+    text-decoration: none;
+    color: white;
+}
+
+
+#navbar:after {
+    content: ' ';
+    width: 100%;
+    display: inline-block;
+}
+
+#navbar #home {
+    color: #00FFEF;
+}
+
+#navbar a:hover{
+    color: #FF5600;
+}
+
+#header {
+	height: 18em;
+	/*background-color: #36362C;*/
+	background-color: #302D2C;
+	width: 100%;
+	margin-top: -9em;
+	margin-bottom: .5em;
+}
+
+#header span {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 3.61em;
+    background-color: transparent;
+    font-size: 8em;
+    color: white;
+}
+
+#first_name {
+    color: #FCF4C8;
+}
+
+#last_name {
+    color: #292720;
+}
+
+.tile {
+    width: 20%;
+    height: 12.34%;
+    clear: both;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #292720;
+    display: inline-block;
+    margin: .75% .75% .75% 0;
+}
+
+.div_text {
+    float: left;
+    max-width: 59%;
+    margin-left: .5em;
+    font-size: 2em;
+    text-align: justify;
+    color: #FF5600;
+}
+
+.main_text {
+    float: left;
+    max-width: 59%;
+    color: #00B2A7;
+    clear: left;
+    margin-left: 1em;
+    text-align: justify;
+}
+
+
+#facebook {
+    background-image: url("http://logos.80x15.com/dologo.php?do=true&ls_font_text=facebook&ls_text_color=FCF4C8&ls_background=292720&out_border=292720&font_type=facebook&font_size=35&shadow=127&gloss=127");
+    float: left;
+}
+
+#footer {
+	height: 50px;
+	/*background-color: #69D2E7;*/
+	clear: both;
+}
+
+.big_pic {
+    float: right;
+    background-image: url("https://scontent-b-iad.xx.fbcdn.net/hphotos-prn2/t1/1379797_10151963028044874_1339094820_n.jpg");
+    background-size: cover;
+    background-position: 0 20%;
+    width: 38.3%;
+    height: 50%;
+    margin-right: .5em;
+}
