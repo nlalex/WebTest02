@@ -118,11 +118,19 @@ light blue 00FFEF
 }
 
 .big_pic {
+    display: block;
     float: right;
-    background-image: url("https://scontent-b-iad.xx.fbcdn.net/hphotos-prn2/t1/1379797_10151963028044874_1339094820_n.jpg");
+    background: url("https://scontent-b-iad.xx.fbcdn.net/hphotos-prn2/t1/1379797_10151963028044874_1339094820_n.jpg");
     background-size: cover;
     background-position: 0 20%;
     width: 38.3%;
     height: 50%;
     margin-right: .5em;
+}
+
+.big_pic div
+{
+    content: 'text';
+    width: 10em;
+    height: 5em;
 }
